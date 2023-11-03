@@ -1,0 +1,55 @@
+/* home page style */
+
+.home-page {
+  padding: 0 20px;
+}
+
+.text-align-start {
+  text-align: start;
+}
+
+.gap-25px {
+  gap: 25px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.feature {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feature h2 {
+  font-size: 24px;
+}
+
+.feature p {
+  margin-top: 10px;
+}
+
+.home-filter {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.card-text {
+  margin-block: 0.5rem;
+}
+
+.home-heading {
+  text-align: center;
+  margin-block: 0.5rem 1rem;
+}
+
+.header-pagination {
+  margin: 15px auto 0;
+}

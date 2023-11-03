@@ -1,38 +1,58 @@
-.App {
+/* card design  */
+.card-img {
+  height: 280px;
+  width: 320px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin: 10px auto 0;
+  transition: transform 0.3s ease;
+  /* padding-block: 5px; */
+}
+
+.card-desc {
+  padding-top: 25px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* navbar style */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.header-icon {
+  font-size: 1.7rem;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+/* cart design  */
+.cart-design {
+  width: 320px;
+  margin: 15px auto;
+  text-align: center;
+}
+.cart-container {
+  padding-block: 15px;
+  background-color: #f0f0f0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cart-design > h2 {
+  margin-bottom: 15px;
+}
+
+.card-header {
+  padding: 0;
+  width: 350px;
+  object-fit: cover;
+}
+
+.card-img :hover {
+  transform: scale(1.07);
+}
+
+.title {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-right: 15px;
+}
+
+.mx-100 {
+  width: 150px;
 }
