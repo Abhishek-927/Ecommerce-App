@@ -27,10 +27,14 @@
 
 .about-section {
   margin-bottom: 20px;
-  padding: 20px;
+  padding: 20px 20px 20px 0;
 }
 
 .about-section > h2 {
   font-size: 24px;
   margin-bottom: 10px;
+}
+
+.about-section > p {
+  padding-left: 20px;
 }

@@ -11,7 +11,6 @@ const ProductDetails = () => {
   // const [related, setRelated] = useState([]);
 
   const getSingleProduct = async () => {
-    console.log("clickd getSingleProduct");
     const data = await products.find((p) => p._id === id);
     setProduct(data);
   };

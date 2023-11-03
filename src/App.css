@@ -56,3 +56,15 @@
 .mx-100 {
   width: 150px;
 }
+
+@media only screen and (max-width: 425px) {
+  .card-header {
+    width: 300px;
+  }
+  .card-img {
+    width: 290px;
+  }
+  .col-md-10 {
+    margin-top: 15px;
+  }
+}

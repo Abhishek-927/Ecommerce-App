@@ -14,7 +14,7 @@ const Card = () => {
             Login to your account
           </Link>
           <Link to="/signup" className=" ms-3 btn btn-secondary">
-            Sign up now
+            Sign up
           </Link>
         </div>
       </div>

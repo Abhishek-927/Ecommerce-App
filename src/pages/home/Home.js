@@ -28,37 +28,9 @@ const Home = () => {
     getAllProducts();
   }, []);
 
-  // const getAllCategory = async () => {
-  //   try {
-  //     setLoading(true);
-  //     const { data } = await axios.get(
-  //       `${base}/api/v1/category/get-categories`
-  //     );
-  //     setCategories(data.allCategories);
-  //     setLoading(false);
-  //   } catch (error) {
-  //     setLoading(false);
-  //     console.log(error);
-  //   }
-  // };
-
-  // const addToCard = (pro) => {
-  //   temp = { ...pro };
-  //   delete temp.photo;
-  //   setCard([...card, temp]);
-  //   toast.success("Item added");
-  //   localStorage.setItem("card", JSON.stringify([...card, temp]));
-  // };
-
-  // useEffect(() => {
-  //   getAllCategory();
-  //   getTotal();
-  // }, []);
-
   //handle filter for checkbox/category
   const handleFilter = (value, cetagory) => {
     let all = [...checked];
-    console.log(all);
     if (value) {
       all.push(cetagory);
     } else {
@@ -183,9 +155,6 @@ const Home = () => {
                         <Link
                           to={`product/${pro._id}`}
                           className="btn btn-primary"
-                          onClick={() => {
-                            console.log("clickd");
-                          }}
                         >
                           More Details
                         </Link>
