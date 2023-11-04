@@ -3,6 +3,10 @@ This is a frontend e-commerce website built using React. It allows users to brow
 
 ## Running the Application
 
+For install all package in your system you can run 
+
+### `npm i `
+
 In the project directory, you can run:
 
 ### `npm start`
